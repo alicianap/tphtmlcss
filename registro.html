@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Regístrese</title>
+        <script src="https://kit.fontawesome.com/232d52e13b.js" crossorigin="anonymous"></script>
+        </head>
+     <body> 
+        <header style="background-color: darkorange;">
+            <nav>
+                <a style="background-color: rgb(235, 231, 19);" href="index.html" target="_blank"><b>Home</a>
+                <a style="background-color: rgb(235, 231, 19);" href="recetas.html" target="_blank"><b>Recetas</a>
+                <a style="background-color: rgb(235, 231, 19);" href="acercade.html" target="_blank"><b>Acerca de</a>
+                <a style="background-color: rgb(235, 231, 19);" href="contacto.html" target="_blank"><b>Contacto</a>
+                <a style="background-color: rgb(235, 231, 19);" href="sucursales.html" target="_blank"><b>Sucursales</a>                                  
+            </nav>
+            <h1 style="text-align: center;">La Cantina de Juan - Regístrese aquí</h1><br>
+        </header> 
+        <section>
+           <h2>Formulario de Registro</h2>
+           <form action="show_data.html" target="_blank">
+               <label for="firstname">Nombre: </label><input type="text" name="firstname" placeholder="Ingrese su nombre aquí...">  <br><br>
+               <label for="lastname">Apellido: </label><input type="text" name="lastname" placeholder="Ingrese su apellido aquí...">  <br><br>
+               <label for="street">Dirección: </label><input type="text" name="address" placeholder="Ingrese su dirección aquí...">  <br><br>
+               <label for="city">Ciudad: </label><input type="text" name="city" value="C.A.B.A">  <br><br>
+               <label for="zipcode">Código Postal: </label><input type="text" name="zipcode" placeholder="Ingrese su código postal aquí...">  <br><br>
+               <label for="birthdate">Fecha de Nacimiento (dd/mm/aaaa): </label><input type="text" name="birthdate" >  <br><br>
+
+               <p>Género
+                  <input type="radio" name="gender" value="hombre" checked>Hombre
+                  <input type="radio" name="gender" value="mujer" checked>Mujer
+                  <input type="radio" name="gender" value="otro" checked>Otro
+               </p>
+               <p>Estudios
+                  <input type="checkbox" name="estudio" value="primarios" >Primarios
+                  <input type="checkbox" name="estudio" value="secundarios" >Secundarios
+                  <input type="checkbox" name="estudio" value="terciarios">Terciarios
+                  <input type="checkbox" name="estudio" value="universitarios" >Universitarios
+                  <input type="checkbox" name="estudio" value="otro" >Otro              
+               </p>
+               <input type="submit" value="ENVIAR">
+           </form>
+           <p>Si Ud. hace clic en el botón ENVIAR, sus datos serán enviados a la página "show_data.html"</p>
+           <br><br><br><br><br><br><br><br>
+
+        </section>  
+        <footer style="background-color: darkorange;">
+            <a href="facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
+            <a href="twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+            <p style="text-align: center;">Derechos Reservados @2020</p><br>
+        </footer>  
